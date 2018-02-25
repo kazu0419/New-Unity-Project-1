@@ -6,12 +6,14 @@ public class Test : MonoBehaviour {
 
 	// Use this for initialization
 
-	void SayHello(){
-		Debug.Log("Hello");
-	}
+
 
 	void Start () {
-		SayHello();
+		for (int i = 0; i < 5; i++)
+		{
+			Debug.Log(i);
+		}
+		
 	}
 	
 }
